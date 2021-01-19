@@ -1,0 +1,9 @@
+127.0.0.1	localhost.localdomain		localhost
+192.168.4.10	security.dexter.local		security
+192.168.4.11	linux-client.dexter.local	linux-client
+192.168.4.12	windows-client.dexter.local	windows-client
+192.168.4.13	storage.dexter.local		storage
+192.168.4.14	ipaserver.dexter.local		ipaserver
+192.168.4.15	samba4-server.dexter.local	samba4-server
+10.0.4.11	webserver.dexter.local		webserver
+10.0.4.12	docker.dexter.local		docker

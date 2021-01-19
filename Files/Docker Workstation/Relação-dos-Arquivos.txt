@@ -1,0 +1,17 @@
+Distribuição: Ubuntu Server 16 (Xenial)
+
+Quantidade de memória: 1024 MB
+
+Configuração de rede no VirtualBox:
+
+Adaptador 1: host-only (10.0.4.1)
+
+Arquivos:
+
+/etc/hosts
+/etc/hostname
+/etc/network/interfaces
+/etc/sudoers.d/98_4linux
+/opt/docker-compose.yaml
+
+

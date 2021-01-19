@@ -1,0 +1,15 @@
+Sistema Operacional: Windows 8.1
+
+Quantidade de memória: 2048 MB
+
+Configuração de rede no VirtualBox:
+
+Adaptador 1: host-only (192.168.4.1)
+
+IP -> 192.168.4.12
+NETMASK -> 255.255.255.0
+GATEWAY -> 192.168.4.10
+DNS1 -> 192.168.4.14
+DNS2 -> 8.8.8.8
+
+

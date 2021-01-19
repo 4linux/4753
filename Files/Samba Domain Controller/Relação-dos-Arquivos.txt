@@ -1,0 +1,25 @@
+Distribuição: CentOS 7
+
+Quantidade de memória: 4096 MB
+
+Configuração de rede no VirtualBox:
+
+Adaptador 1: host-only (192.168.4.1)
+
+
+Arquivos:
+
+/etc/hosts
+/etc/hostname
+/etc/sysconfig/network-scripts/ifcfg-enp0s3
+/etc/sudoers.d/98_4linux
+/etc/sysconfig/selinux
+
+Deixar o Firewalld ativado
+
+sudo systemctl enable firewalld
+
+
+Pastas:
+
+/opt/samba4

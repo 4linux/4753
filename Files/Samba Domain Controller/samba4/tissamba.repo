@@ -1,0 +1,4 @@
+[tis-samba]
+name=tis-samba
+baseurl=http://samba.tranquil.it/centos7/stable/
+gpgcheck=0

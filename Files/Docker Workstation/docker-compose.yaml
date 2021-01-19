@@ -1,0 +1,21 @@
+version: '3'
+services:
+  dexter-mysql-server:
+    image: mysql:5.7.22
+    volumes:
+      - /root/banco
+    environment:
+      MYSQL_ROOT_PASSWORD: 4linux
+      MYSQL_DATABASE: wordpress
+    ports:
+      - "3306:3306"
+  dexter-wordpress-server:
+    image: wordpress
+    volumes:
+      - /root/html
+    links:
+      - dexter-mysql-server:mysql
+    environment:
+      WORDPRESS_DB_PASSWORD: 4linux
+    ports:
+      - "80:80"
